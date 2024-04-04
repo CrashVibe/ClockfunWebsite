@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -147,17 +148,25 @@ li, a, button {
 .card-zlserver {
     display: inline-block;
     background-color: #ffffff;
-    border: #a5a5a5 1px solid;
+    border: #e6e6e6 1px solid;
     border-radius: 8px;
     margin-left: 10%;
     padding: 16px 24px;
-    margin-bottom: 8rem;
+    margin-bottom: 8px;
+    margin-top: 1rem;
 }
 
 .card-zlserver h3 {
     font-size: 24px;
     color: #1d1d1f;
     background-color: #ffffff;
+}
+
+.card-zlserver img {
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 8px;
 }
 
 .card-zlserver p {
@@ -168,10 +177,11 @@ li, a, button {
 .card-u1bot {
     display: inline-block;
     background-color: #ffffff;
-    border: #a5a5a5 1px solid;
+    border: #e6e6e6 1px solid;
     border-radius: 8px;
     padding: 16px 24px;
-    margin-bottom: 8rem;
+    margin-bottom: 8px;
+    margin-top: 1rem;
 }
 
 .card-u1bot h3 {
@@ -183,4 +193,20 @@ li, a, button {
 .card-u1bot p {
     background-color: #ffffff;
     color: #696969;
+}
+
+.card-u1bot img {
+    border-radius: 8px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 8px;
+}
+
+.product-p {
+    margin-left: 10%;
+    color: #646464;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 20rem;
+    margin-top: 2rem;
 }
