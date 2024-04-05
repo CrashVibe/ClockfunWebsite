@@ -184,6 +184,16 @@ li, a, button {
     margin-top: 1rem;
 }
 
+.card-u1bot:hover {
+    transition: 0.1s ease;
+    transform: translateY(-1px);
+}
+
+.card-zlserver:hover {
+    transition: 0.1s ease;
+    transform: translateY(-1px);
+}
+
 .card-u1bot h3 {
     font-size: 24px;
     color: #1d1d1f;
@@ -209,4 +219,10 @@ li, a, button {
     line-height: 1.4;
     margin-bottom: 20rem;
     margin-top: 2rem;
+}
+
+.footer {
+    color: #646464;
+    padding-bottom: 2rem;
+    margin-left: 10%;
 }
