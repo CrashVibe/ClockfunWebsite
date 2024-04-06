@@ -221,7 +221,47 @@ li, a, button {
     margin-top: 2rem;
 }
 
-.footer {
+.about-img {
+    border-radius: 20px;
+    width: 50vw;
+    margin-right: 10%;
+}
+
+.aboutus {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.aboutcontent {
+    margin-left: 10%;
+    color: #1d1d1f;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.aboutus h1 {
+    margin-bottom: 2rem;
+}
+
+.aboutcontent p {
+    color: #646464;
+    max-width: 550px;
+    font-size: 20px;
+    line-height: 1.8;
+    padding-right: 6%;
+    font-weight: 540;
+    margin-top: 2rem;
+}
+
+.footer h3 {
+    color: #212121;
+    margin-left: 10%;
+}
+
+.footer p {
     color: #646464;
     padding-bottom: 2rem;
     margin-left: 10%;
