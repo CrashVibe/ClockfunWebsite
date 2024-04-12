@@ -12,3 +12,7 @@ setInterval(function () {
     
     next.setAttribute('data-show', '')
   }, 2000)
+
+setInterval(function () {
+  window.location.reload();
+}, 5000)
