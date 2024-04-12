@@ -8,6 +8,7 @@
 
 :root {
     --offset: 6px;
+    --loading-grey: #ededed;
 }
 
 header {
@@ -266,3 +267,36 @@ li, a, button {
     padding-bottom: 2rem;
     margin-left: 10%;
 }
+
+.hometitle-line1 span {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    top: .8rem;
+    animation: .3s swift-up ease-in-out forwards;
+}
+
+.hometitle-line1 i {
+    font-style: normal;
+    position: relative;
+    top: 3.8rem;
+    animation: .5s swift-up ease-in-out forwards;
+  }
+
+@keyframes swift-up {
+    to {
+      top: 0rem;
+    }
+}
+
+span:nth-of-type(1) i {
+    animation-delay: 0s;
+  }
+  
+  span:nth-of-type(2) i {
+    animation-delay: .1s;
+  }
+  
+  span:nth-of-type(3) i {
+    animation-delay: .2s;
+  }
