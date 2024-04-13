@@ -10,7 +10,7 @@
     --offset: 6px;
     --background-color-light: #f5f5f5;
     --title-color-light: #1d1d1f;
-    --loading-grey: #ededed;
+    --description-color-light: #696969;
 }
 
 header {
@@ -174,7 +174,7 @@ li, a, button {
 
 .card-zlserver p {
     background-color: #ffffff;
-    color: #696969;
+    color: var(--description-color-light);
 }
 
 .card-u1bot {
@@ -205,7 +205,7 @@ li, a, button {
 
 .card-u1bot p {
     background-color: #ffffff;
-    color: #696969;
+    color: var(--description-color-light);
 }
 
 .card-u1bot img {
@@ -250,7 +250,7 @@ li, a, button {
 }
 
 .aboutcontent p {
-    color: #646464;
+    color: var(--description-color-light);
     max-width: 550px;
     font-size: 20px;
     line-height: 1.8;
@@ -265,7 +265,54 @@ li, a, button {
 }
 
 .footer p {
-    color: #646464;
+    color: var(--description-color-light);
     padding-bottom: 2rem;
     margin-left: 10%;
+}
+
+.who-are-we h1 {
+    font-size: 36px;
+    color: var(--title-color-light);
+    margin-bottom: 2rem;
+    margin-left: 10%;
+}
+
+.card-wling {
+    width: 320px;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, .12);
+    margin-left: 10%;
+    margin-bottom: 10rem; 
+    padding-block: 2rem;
+    padding-left: 2rem;
+}
+
+.card-wling img {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    display: block;
+    padding-left: 2rem;
+    padding: 2rem 0rem;
+    transition: linear 0.1s;
+}
+
+.card-wling img:hover {
+    padding: 0rem 0rem;
+    transform: rotate(360deg);
+    transition: linear 0.2s;
+}
+
+.card-wling h4 {
+    font-size: 24px;
+    color: var(--title-color-light);
+    background-color: white;
+}
+
+.card-wling p {
+    color: var(--description-color-light);
+    background-color: white;
 }
