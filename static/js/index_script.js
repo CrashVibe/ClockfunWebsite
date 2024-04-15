@@ -20,7 +20,7 @@ function toggleIcon() {
     } else {
         icon.href = '/static/img/icon_dark.svg'; // 夜间模式图标
     }
-    var logo = document.querySelector('img[class~="logo"]');
+    var logo = document.getElementById('logo');
     if (matchMedia('(prefers-color-scheme: dark)').matches) {
         logo.href = '/static/img/icon.svg';
     } else {
