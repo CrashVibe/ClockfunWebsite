@@ -16,15 +16,11 @@ setInterval(function () {
 function toggleIcon() {
     var icon = document.querySelector('link[rel~="icon"]');
     if (matchMedia('(prefers-color-scheme: dark)').matches) {
-        icon.href = '/static/img/icon.svg'; // 白天模式图标
+        icon.href = '/static/img/icon_dark.svg'; // 白天模式图标
+        console.log("[DEBUG] 已替换为白天模式显示图标 (内容为黑)")
     } else {
-        icon.href = '/static/img/icon_dark.svg'; // 夜间模式图标
-    }
-    var logo = document.getElementById('logo');
-    if (matchMedia('(prefers-color-scheme: dark)').matches) {
-        logo.href = '/static/img/icon.svg';
-    } else {
-        logo.href = '/static/img/icon_dark.svg';
+        icon.href = '/static/img/icon.svg'; // 夜间模式图标
+        console.log("[DEBUG] 已替换为夜间模式显示图标 (内容为白)")
     }
 }
  
